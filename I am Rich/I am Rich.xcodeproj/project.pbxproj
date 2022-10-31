@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000D0D65290FA11D00BADEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000D0D64290FA11D00BADEC3 /* Assets.xcassets */; };
 		0043A3E5290D624A0017E357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0043A3E4290D624A0017E357 /* AppDelegate.swift */; };
 		0043A3E7290D624A0017E357 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0043A3E6290D624A0017E357 /* SceneDelegate.swift */; };
 		0043A3E9290D624A0017E357 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0043A3E8290D624A0017E357 /* ViewController.swift */; };
 		0043A3EC290D624A0017E357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0043A3EA290D624A0017E357 /* Main.storyboard */; };
-		0043A3EE290D624B0017E357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0043A3ED290D624B0017E357 /* Assets.xcassets */; };
 		0043A3F1290D624B0017E357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0043A3EF290D624B0017E357 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000D0D64290FA11D00BADEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0043A3E1290D624A0017E357 /* I am Rich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I am Rich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0043A3E4290D624A0017E357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0043A3E6290D624A0017E357 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0043A3E8290D624A0017E357 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0043A3EB290D624A0017E357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0043A3ED290D624B0017E357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0043A3F0290D624B0017E357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0043A3F2290D624B0017E357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +60,7 @@
 				0043A3E6290D624A0017E357 /* SceneDelegate.swift */,
 				0043A3E8290D624A0017E357 /* ViewController.swift */,
 				0043A3EA290D624A0017E357 /* Main.storyboard */,
-				0043A3ED290D624B0017E357 /* Assets.xcassets */,
+				000D0D64290FA11D00BADEC3 /* Assets.xcassets */,
 				0043A3EF290D624B0017E357 /* LaunchScreen.storyboard */,
 				0043A3F2290D624B0017E357 /* Info.plist */,
 			);
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0043A3F1290D624B0017E357 /* LaunchScreen.storyboard in Resources */,
-				0043A3EE290D624B0017E357 /* Assets.xcassets in Resources */,
+				000D0D65290FA11D00BADEC3 /* Assets.xcassets in Resources */,
 				0043A3EC290D624A0017E357 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +287,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTC82K5425;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "I am Rich/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTC82K5425;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "I am Rich/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
