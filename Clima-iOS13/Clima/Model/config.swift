@@ -8,4 +8,4 @@
 
 import Foundation
 
-let openWeatherAPIToken = "6d181af88fa2aedc163a6f84963cbd84"
+let openWeatherAPIToken = "b21f138b54b233142ac2254a0274368d"
