@@ -1,0 +1,20 @@
+// put it inside the class
+let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appending(path: K.itemPlistTitle)
+
+func saveItems(){
+        do{
+            let encoded = try PropertyListEncoder().encode(itemArray)
+            try encoded.write(to: dataFilePath!)
+        }catch{
+            print(error)
+        }
+    }
+
+func loadItems(){
+        do{
+            let data = try Data(contentsOf: dataFilePath!)
+            itemArray = try PropertyListDecoder().decode([Item].self, from: data)
+        }catch{
+            print(error)
+        }
+    }
