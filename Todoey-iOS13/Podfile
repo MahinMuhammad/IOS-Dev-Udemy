@@ -1,9 +1,0 @@
-platform :ios, '14.0'
-
-target 'Todoey' do
-
-  use_frameworks!
-
-  pod 'ChameleonFramework/Swift', :git => 'https://github.com/luckychris/Chameleon.git', :inhibit_warnings => true
-
-end
